@@ -358,6 +358,9 @@
       color: #fff;
   }
   .header_top_right li a {
+    /* display: inline;
+    font-size: 14px;
+    padding-left: 25px; */
     color: #fff;
 }
   .header_top_right li i {
