@@ -1084,7 +1084,6 @@
   }
   .slider_mn {
       position: absolute;
-      bottom: 0;
       right: 0%;
   }
   .header_top_bg .more-link {} .header_top_bg .more-link:hover {} .header_top_bg h3 {
