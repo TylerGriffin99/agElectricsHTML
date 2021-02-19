@@ -377,6 +377,8 @@
       float: left;
       position: relative;
       height: 73px;
+      display: flex;
+      align-items: center;
   }
   .navigation .logo img {
       margin-top: 7px;
@@ -1079,12 +1081,14 @@
   .header_top_bg {
       height: 750px;
       position: relative;
-      background: url("../images/img/slider3.jpg") no-repeat fixed center center;
+      background-color: #000;
+      /* opacity: 0.8;
+      background: url("../images/img/gallery-kitchen.jpg") no-repeat fixed center center; */
       background-size: cover;
   }
   .slider_mn {
       position: absolute;
-      right: 0%;
+      right: 5%;
   }
   .header_top_bg .more-link {} .header_top_bg .more-link:hover {} .header_top_bg h3 {
       font-size: 50px;
@@ -1188,7 +1192,11 @@
    Promo Section
 ------------------------------------------------------*/
   
-  .promotion_one {
+ .promotion_row {
+     display: flex;
+     align-items: center;
+ } 
+ .promotion_one {
       background: #FFBC13;
       padding-top: 40px;
       padding-bottom: 54px;
@@ -1206,7 +1214,6 @@
       color: #fff;
   }
   .promotion_one_lt a {
-      margin-top: 32px;
       background: #fff;
       color: #333;
       padding: 13px 40px;
