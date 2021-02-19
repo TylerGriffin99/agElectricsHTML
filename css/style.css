@@ -1322,7 +1322,7 @@
       transition: all 0.2s ease-out 0s;
       margin-bottom: 70px;
       position: relative;
-      text-align: center;
+      height: 580px;
       position: relative;
       border-bottom-left-radius: 15px;
       border-bottom-right-radius: 15px;
@@ -1347,6 +1347,7 @@
   }
   .serv-left {
       display: block;
+      text-align: center;
       margin-bottom: -10px;
       font-size: 18px;
       letter-spacing: 2px;
@@ -1399,7 +1400,15 @@
       margin-top: 35px;
       margin-bottom: 20px;
       color: #fff;
+      list-style: none;
   }
+    .serv-info i {
+        padding-right: 12px;
+    }
+    .serv-info li {
+        margin-bottom: 10px;
+        /* color: #515151 !important; */
+    }
   .service-section .row .service-item:hover .serv-left {
       color: #FFBC13;
   }
@@ -1714,7 +1723,8 @@
   
   .work-section {
       padding-bottom: 50px;
-      background: #F5F5F5;
+      background: #fff !important;
+    
   }
   /* Work items
 ------------------*/
@@ -2776,6 +2786,7 @@
   
   .contact-page {
       padding-bottom: 100px;
+      background: #FFF;
   }
   .contact_pg_address {
       background: #FFBC13;
