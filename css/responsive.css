@@ -663,6 +663,14 @@
     footer .recent-post li a {
         font-size: 14px;
     }
+    .footer-section {
+        padding: 10px 0;
+    }
+    .footer-row {
+        margin: 0 -15px;
+        display: flex;
+        align-items: center;
+    }
     .footer-section .widget h5 {
         margin-bottom: 22px;
     }
@@ -681,6 +689,9 @@
     }
     .footer-section .footer_para {
         margin-bottom: -10px;
+    }
+    .img-responsive {
+        margin: 1em 0;
     }
     /*--------------------------------------
    Blog Page 
