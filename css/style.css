@@ -1322,7 +1322,7 @@
       transition: all 0.2s ease-out 0s;
       margin-bottom: 70px;
       position: relative;
-      height: 600px;
+      height: 580px;
       position: relative;
       border-bottom-left-radius: 15px;
       border-bottom-right-radius: 15px;
@@ -1397,20 +1397,27 @@
       transition: all 0.4s ease-out 0s;
   }
   .serv-info {
-      margin-top: 35px;
-      margin-bottom: 20px;
-      color: #fff;
-      list-style: none;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    color: #fff;
+    list-style: none;
   }
-    .serv-info i {
-        padding-right: 12px;
-    }
-    .serv-info li {
-        margin-bottom: 10px;
-        /* color: #515151 !important; */
-    }
+  .serv-info-list {
+    position: absolute;
+    bottom: 0;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    color: #fff;
+    list-style: none;
+  }
+  .serv-info-list i {
+    padding-right: 12px;
+  }
+  .serv-info-list li {
+    margin-bottom: 10px;
+  }
   .service-section .row .service-item:hover .serv-left {
-      color: #FFBC13;
+    color: #FFBC13;
   }
   .service-section .row .service-item:hover .serv-left:before,
   .service-section .row .service-item:hover .serv-left:after {
