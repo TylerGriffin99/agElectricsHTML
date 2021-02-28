@@ -1509,7 +1509,7 @@
 ------------------------------------------------------*/
   
   .chooseus-section {
-      background: #fff;
+      background: #FBFBFB;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -ms-background-size: cover;
@@ -1520,6 +1520,9 @@
   }
   .chooseus-section .base-header {
       padding-bottom: 64px;
+  }
+  .chooseus-image-wrapper {
+      padding: 51px 20px;
   }
   .chooseus-item {
       margin-bottom: 70px;
